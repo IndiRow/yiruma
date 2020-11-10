@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"> 
+  <title>Yiruma</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <header>
+    <div id="logo" onclick="slowScroll('#top')">
+      <span>Yiruma</span>
+    </div>
+    <div id="about">
+      <a href="#" title="Биография" onclick="slowScroll('#biography')">BIOGRAPHY</a>
+      <a href="#" onclick="slowScroll('#gallery')" title="Галерея">GALLERY</a>
+      <a href="#" onclick="slowScroll('#albums')" title="Альбомы">ALBUMS</a>
+      <a href="#" onclick="slowScroll('#music')" title="Музыка">MUSIC</a>
+      <a href="#" onclick="slowScroll('#contacts')" title="Контакты">CONTACTS</a>
+    </div>
+  </header>
+
+  <div id="top">
+    <!--<h1>Автошкола</h1>
+    <h3>Автодорожный</h3>-->
+  </div>
+
+  <div id="biography">
+    <div class="biography-block">
+      <div class="biography-title">
+        <h3>Biography</h3>
+      </div>
+      <div class="biography-text">
+        <p>Yiruma is a South Korean piano music composer. The name "Yiruma" means "I shall achieve" in Korean. He was born in Feb 15, 1978 and started to learn the piano at home at the age of 5. In 1988 he moved to England, and in December 1996 he participated in the album The Musicians of Purcell (Decca). Graduating from Purcell School of Music in July 1997, Yiruma continued his musical aspirations and completed a Composition major from King's College London in June 2000. While studying at Kings College, this promising pianist released his first album "Love Scene" through DECCA records. Additionally, during his time in college, he participated in a musical tour in Europe. Making a historical impact for his country, Yiruma was the first Korean artist to receive an invitation to perform at the 2002 MIDEM in Cannes, France. <br> In 2011, Yiruma released his best album with Sony Music Entertainment Korea Inc., and his concert <The Best> in 13 Korean cities has successfully held. Official videos for the best album are on Youtube Yiruma VEVO. The videos including his most famous pieces “Kiss the Rain”, “Maybe” and “River Flows in You”, hit over 100 million views on YouTube.</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="gallery">
+    <div class="gallery-title">
+        <h3>Gallery</h3>
+      </div>
+    <div class="slider-block">  
+      <div class="wrapper">
+      <!-- Контент -->
+
+      <div class="slider">
+        <div class="slider__item filter">
+          <img src="img/yiruma_slider_1.jpg" alt="">
+        </div>
+        <div class="slider__item">
+          <img src="img/yiruma_slider_2.jpg" alt="">
+        </div>
+        <div class="slider__item filter">
+          <img src="img/yiruma_slider_3.jpg" alt="">
+        </div>
+        <div class="slider__item">
+          <img src="img/yiruma_slider_4.jpg" alt="">
+        </div>
+        <div class="slider__item">
+          <img src="img/yiruma_slider_5.jpg" alt="">
+        </div>
+      </div>
+      </div>
+  </div>
+  </div>
+
+  <div id="albums">
+    <div class="albums-block">
+      <div class="albums-title">
+        <h3>Albums</h3>
+        <h5>Click on image to listen!</h5>
+      </div>
+      <div class="albums-cards">
+        
+        <div class="album-card">
+          <div class="album-card-img">
+            <a href="https://www.youtube.com/playlist?list=PLP1MQHioOXtELYjhgqU9gnQoe5ilc2Uqs"><img src="img/yiruma_album_1.jpg" alt=""></a>
+          </div>
+          <div class="album-card-text">
+            <b>The Best - Reminiscent <br> 2011</b>
+          </div>
+        </div>
+
+        <div class="album-card">
+          <div class="album-card-img">
+            <a href="https://www.youtube.com/playlist?list=PLZ-dXiWaONko3tI46lPuUwc5AhiZs1A0O"><img src="img/yiruma_album_2.jpg" alt=""></a>
+          </div>
+          <div class="album-card-text">
+            <b>Stay In Memory <br> 2012</b>
+          </div>
+        </div>
+
+        <div class="album-card">
+          <div class="album-card-img">
+            <a href="https://www.youtube.com/playlist?list=PLts9UpRBd55b3G8wqgVNHhjeZqa9CpGgT"><img src="img/yiruma_album_3.jpg" alt=""></a>
+          </div>
+          <div class="album-card-text">
+            <b>Blind Film <br> 2013</b>
+          </div>
+        </div>
+
+        <div class="album-card">
+          <div class="album-card-img">
+            <a href="https://www.youtube.com/playlist?list=PLts9UpRBd55Zyf79_OV6i8s07L3yPUcis"><img src="img/yiruma_album_4.jpg" alt=""></a>
+          </div>
+          <div class="album-card-text">
+            <b>Piano <br> 2015</b>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="music">
+    <div class="music-block">
+      
+      <div class="music-title">
+        <h3>Music</h3>
+        <h5>The most popular compositions</h5>
+      </div>
+    
+    <div class="audiocards">
+      
+      <div class="audiocard">
+        <div class="imgbox">
+          <img src="img/music_card_img1.jpg" alt="">
+        </div>
+      <audio controls>
+        <source src="audio/Yiruma-River_Flows_in_You.mp3" type="audio/mp3">
+      </audio>
+      </div>
+
+      <div class="audiocard">
+        <div class="imgbox">
+          <img src="img/music_card_img2.jpg" alt="">
+        </div>
+      <audio controls>
+        <source src="audio/Yiruma-Kiss_the_Rain.mp3" type="audio/mp3">
+      </audio>
+      </div>
+
+      <div class="audiocard">
+        <div class="imgbox">
+          <img src="img/music_card_img3.jpg" alt="">
+        </div>
+      <audio controls>
+        <source src="audio/Yiruma-May_Be.mp3" type="audio/mp3">
+      </audio>
+      </div>
+
+      <div class="audiocard">
+        <div class="imgbox">
+          <img src="img/music_card_img4.jpg" alt="">
+        </div>
+      <audio controls>
+        <source src="audio/Yiruma-Reminiscent.mp3" type="audio/mp3">
+      </audio>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div id="contacts">
+  <div class="contacts-block">
+    <div class="contacts-title">
+        <h3>Contacts</h3>
+      </div>
+    <div class="info">
+      <h3>Created by <br>Ilshat Niyazov</a></h3>
+      <ul class="social-media">
+          <li><a href="https://www.facebook.com/ilshat.niyazov" class="fab fa-facebook-square"></a></li>
+          <li><a href="https://vk.com/ravenrow" class="fab fa-vk"></a></li>
+          <li><a href="https://t.me/RavenRow" class="fab fa-telegram"></a></li>
+          <li><a href="mailto:ilshat.niyazov@iaau.edu.kg" class="fab fa-google"></a></li>
+        </ul>
+      <h4>Copyright 2020 &copy;</h4>
+    </div>
+</div>
+</div>
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+    function slowScroll(id) {
+      $('html, body').animate({
+        scrollTop: $(id).offset().top
+      }, 500);
+    }
+
+    $(document).on("scroll", function () {
+      if($(window).scrollTop() === 0)
+        $("header").removeClass("fixed");
+      else
+        $("header").attr("class", "fixed");
+    });
+  </script>
+  <!-- Подключаем jQuery -->
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+      <!-- Подключаем слайдер Slick -->
+      <script src="js/slick.min.js"></script>
+      <!-- Подключаем файл скриптов -->
+      <script src="js/script.js"></script>
+</body>
+
+</html>
